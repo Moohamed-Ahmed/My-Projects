@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+    display: block;
+}
+
+body {
+    background-image: url(../Design-a-credit-card-checkout/image/15151445_5559852.jpg);
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    padding: 15px;
+}
+
+.back {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.back::before {
+    content: '←';
+    padding: 5px;
+}
+
+.mnue {
+    position: absolute;
+    right: 15px;
+}
+
+.mnue p {
+    border-bottom: 2px solid black;
+    width: 20px;
+    margin: 3px;
+}
+
+.cricle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.cricle p {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 49px 47px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cricle p:nth-child(1),
+.cricle p:nth-child(2),
+.cricle p:nth-child(3) {
+    width: 10px;
+    height: 10px;
+    margin-top: 56px;
+}
+
+.cricle p:before {
+    content: "";
+    width: 73px;
+    display: block;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 4px;
+    left: 21px;
+}
+
+.cricle p:nth-child(4):before {
+    font-size: 19px;
+    content: "Checkout";
+    position: relative;
+    top: -31px;
+    left: -38px;
+    width: 100px;
+    color: #000000;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 114px;
+}
+
+.contenr {
+    background-color: #fffefe;
+    width: 37%;
+    border-radius: 58px 58px 0 0;
+    box-shadow: 0 0 11px 2px white;
+    margin-left: -10px;
+    margin-top: -44px;
+    height: 470px;
+}
+
+.text1 {
+    color: aquamarine;
+    margin: 41px 0 23px 29px;
+    color: #4f4a4a;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 31px 20px 23px;
+    position: relative;
+    right: 14px;
+}
+
+.icons button {
+    background-color: white;
+    border: 0;
+    height: 40px;
+    width: 58px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0px 16px;
+    box-shadow: 0 0 3px 0px black;
+}
+
+.icons img {
+    width: 28px;
+}
+
+input {
+    height: 32px;
+    padding: 15px;
+    width: 80%;
+    border: 0;
+    font-weight: 700;
+    border-radius: 7px;
+    margin: 9px 24px;
+    background-color: #fffefe;
+    box-shadow: -2px -2px 5px -3px black;
+}
+
+label {
+    margin: 0 24px;
+    color: #555456;
+}
+
+form label:nth-last-child(1) {
+    display: inline;
+    position: relative;
+    left: -74px;
+    top: -6px;
+}
+
+form input:nth-last-child(2) {
+    width: 58px;
+    height: 23px;
+    display: inline;
+    position: relative;
+    left: -15px;
+    box-shadow: none;
+}
+
+.card {
+    /* width: 50%; */
+    height: 250px;
+    background-color: transparent;
+    position: relative;
+    top: -42px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* filter: blur(4px); */
+    color: white;
+    /* background-image: linear-gradient(to right, red , yellow); */
+    /* visibility: hidden; */
+    border: 1px solid #d5d5d5;
+}
+
+.card::before {
+    content: "";
+    width: 560px;
+    height: 250px;
+    position: absolute;
+    background-color: #a5a5a5;
+    right: -5px;
+    z-index: -1;
+    filter: blur(21px);
+    border-radius: 15px;
+    /* opacity: 0.6; */
+
+    background-image: url(../Design-a-credit-card-checkout/image/التقاط\ الويب_24-9-2022_18230_.jpeg);
+}
+
+.card img {
+    position: absolute;
+    right: 17px;
+    top: 11px;
+}
+
+.numper-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 114px 42px 38px 25px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.name-card {
+    grid-column: 1/2;
+    margin: 0px 42px;
+    position: relative;
+    left: 24px;
+}
+
+.ex-date {
+    grid-column: 2/3;
+    margin: 0 76px;
+    position: relative;
+    left: 50px;
+}
+
+.cvv-card {
+    grid-column: 3/3;
+    margin: 0 71px;
+}
+
+.card button {
+    border-radius: 15px;
+    position: absolute;
+    bottom: -71px;
+    right: 0;
+    width: 241px;
+    height: 36px;
+    background-image: url(../Design-a-credit-card-checkout/image/التقاط\ الويب_24-9-2022_18230_.jpeg);
+    FONT-WEIGHT: 600;
+    border: 1px solid white;
+    color: wheat;
+}
+
+.card button::before {
+    content: "";
+    width: 177px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #a5a5a5; */
+    z-index: -1;
+    filter: blur(4px);
+    border-radius: 15px;
+    opacity: 0.6;
+    background-image: url(../Design-a-credit-card-checkout/image/dasd.jpeg);
+}
