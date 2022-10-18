@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100px;
+    font-family: 'Outfit', sans-serif;
+}
+main {
+    width: 16rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+}
+header {
+    transition: 1s;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+header img {
+    border-radius: 10px;
+    width: 14.5rem;
+    padding-top: 8px;
+    z-index: -1;
+}
+.eye {
+    width: 30px;
+    display: none;
+    color: white;
+}
+header:hover>.eye {
+    display: block;
+    position: absolute;
+    top: 115px;
+    left: 45%;
+    z-index: 1;
+}
+header::before {
+    content: "";
+    width: 85%;
+    height: 45%;
+    left: 21px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    opacity: .5;
+    border-radius: 10px;
+    color: azure;
+    background-color: hsl(178, 100%, 50%);
+}
+header:hover::before {
+    display: block;
+    cursor: pointer;
+}
+section {
+    position: relative;
+}
+.text1 {
+    color: #6f85ad;
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.div2 {
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+}
+.div2 img {
+    width: 10px;
+    height: 15px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.Ethereum {
+    color: hsl(178, 100%, 50%);
+    padding: 8px;
+    margin-top: 13px;
+}
+.div3 {
+    display: flex;
+    justify-content: right;
+    color: #6f85ad;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 14px;
+}
+.div3 img {
+    width: 15px;
+    height: 15px;
+    margin: 14.5px 5px;
+}
+hr {
+    border: .1px solid #6f85ad2d;
+    width: 14.5rem;
+}
+.footer {
+    display: flex;
+    justify-content: left;
+    margin: 20px 10px;
+}
+.footer img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.footer p {
+    color: #6f85ad;
+    margin: 6px 10px;
+    font-size: 12px;
+}
+span {
+    color: hsl(0, 0%, 100%);
+}
+span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
