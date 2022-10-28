@@ -994,6 +994,7 @@ header .container nav .serch i {
     margin-top: 64px;
 }
 
+
 .footer::after {
     content: '';
     top: -30px;
