@@ -204,7 +204,10 @@ img {
     padding: 13px 27px;
 }
 
-.time .hours div p {}
+.time .hours div:hover {
+    background-color: #aadf90;
+    color: white;
+}
 
 .footer {
     display: flex;
@@ -216,8 +219,6 @@ img {
     color: white;
     cursor: pointer;
 }
-
-.footer div {}
 
 .footer i {
     background-color: transparent;
