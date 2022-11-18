@@ -1,0 +1,27 @@
+/* Start variables */
+:root {
+    --main-color: #af375d;
+    --faded-color: rgb(0 0 0 / 70%);
+    --secondary-color: #ffce70;
+    --third-color: #343434;
+    --fourth-color: #767676;
+    --fifth-color: #F6F6F6;
+    --main-transition: .3s;
+    --main-border: 30px
+}
+
+/* End variables */
+
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 0px 80px;
+    padding-right: 0;
+}
