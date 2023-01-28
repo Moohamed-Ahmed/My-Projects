@@ -28,6 +28,7 @@ body {
     .container {
         flex-direction: column;
         margin-top: 259px;
+
     }
 
     .container .photo img {
