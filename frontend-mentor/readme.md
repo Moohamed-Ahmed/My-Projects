@@ -34,5 +34,13 @@
   <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/stats-preview-card-component-main/images/stats-preview-card-component-main.jpeg" width="200px">
   </div>
   
+### challenge 5 :
+  
+ [3-column-preview-card-component-main](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/3-column-preview-card-component-main/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/3-column-preview-card-component-main/design/3-column.jpg" width="200px">
+  
   
 
