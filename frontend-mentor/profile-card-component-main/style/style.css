@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: top -560px left -502px, right -560px bottom -502px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+}
+
+.container .blue img {
+    border-radius: 14px 14px 0 0;
+    width: 100%;
+}
+
+.container .txt {
+    position: relative;
+    bottom: 46px;
+    padding: 0 28px;
+}
+
+.container .txt img {
+    border-radius: 50%;
+    border: 6px solid white;
+    margin-bottom: 11px;
+}
+
+.container .txt h2:after {
+    content: "26";
+    color: hsl(227, 10%, 46%);
+    position: absolute;
+    right: 28px;
+    font-weight: 400;
+}
+
+.container .txt h2 {
+    position: relative;
+}
+
+.container .txt>p {
+    color: hsl(227, 10%, 46%);
+}
+
+.container .stat {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 22px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.container .stat::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    width: 120%;
+    left: -29px;
+    background-color: hsl(0, 0%, 59%);
+    height: 1px;
+}
+
+.container .stat>div p {
+    color: hsl(227, 10%, 46%);
+}
