@@ -65,7 +65,7 @@
 
 #### img :
 <div>
-  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/social-proof-section-master/images/social-proof-section-master.jpeg" width="200px">
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/social-proof-section-master/images/social-proof-section-master.jpg" width="200px">
    
   ### challenge 9 :
   
@@ -73,6 +73,6 @@
 
 #### img :
 <div>
-  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main/images/testimonials-grid-section-main.jpeg" width="200px">
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/testimonials-grid-section-main/images/testimonials-grid-section-main.jpeg" width="200px">
   
 
