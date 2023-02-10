@@ -42,5 +42,13 @@
 <div>
   <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/3-column-preview-card-component-main/design/3-column.jpg" width="200px">
   
+  ### challenge 6 :
+  
+ [profile-card-component-main.jpeg](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main.jpeg/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main/images/profile-card-component-main.jpeg" width="200px">
+  
   
 
