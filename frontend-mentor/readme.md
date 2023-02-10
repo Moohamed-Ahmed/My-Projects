@@ -44,11 +44,35 @@
   
   ### challenge 6 :
   
- [profile-card-component-main.jpeg](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main.jpeg/)
+ [profile-card-component-main](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main/)
 
 #### img :
 <div>
   <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main/images/profile-card-component-main.jpeg" width="200px">
   
+   
+  ### challenge 7 :
+  
+ [order-summary-component-main](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/order-summary-component-main/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/order-summary-component-main/images/order-summary-component-main.jpeg" width="200px">
+   
+  ### challenge 8 :
+  
+ [social-proof-section-master](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/social-proof-section-master/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/social-proof-section-master/images/social-proof-section-master.jpeg" width="200px">
+   
+  ### challenge 9 :
+  
+ [testimonials-grid-section-main](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/testimonials-grid-section-main/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/profile-card-component-main/images/testimonials-grid-section-main.jpeg" width="200px">
   
 
