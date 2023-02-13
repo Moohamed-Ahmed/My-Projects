@@ -97,5 +97,5 @@
 
 #### img :
 <div>
-  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/single-price-grid-component-master/images/single-price-grid-component-master.jpg" width="200px">
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/single-price-grid-component-master/images/single-price-grid-component-master.jpeg" width="200px">
 
