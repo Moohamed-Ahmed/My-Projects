@@ -107,3 +107,10 @@
 <div>
   <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/huddle-landing-page-with-alternating-feature-blocks-master/images/huddle-landing-page-with-alternating-feature-blocks-master.jpg" width="200px">
 
+### challenge 14 :
+  
+  [clipboard-landing-page-master](https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/clipboard-landing-page-master/)
+
+#### img :
+<div>
+  <img src="https://Moohamed-Ahmed.github.io/My-Projects/frontend-mentor/clipboard-landing-page-master/images/clipboard-landing-page-master.jpg" width="200px">
