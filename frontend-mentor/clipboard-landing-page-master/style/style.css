@@ -262,4 +262,8 @@ body {
     .clients img {
         width: 50%;
     }
+
+    .header {
+        background-image: url(../images/bg-header-mobile.png);
+    }
 }
